@@ -1,0 +1,33 @@
+body{
+	background-color: #ffe8ce;
+	font-size: 40px;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}
+table{
+	background-color: #fff7ef;
+	border-collapse: collapse;
+}
+th{
+	background-color: #f4bc7c;
+	border-width: 1px;
+	margin: 10px;
+	padding: 10px;
+	border-color: #f28a21;
+	border-style: solid;
+}
+td{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #efb173;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+tr:nth-child(even){
+	background-color: #ffd6a8;
+}
+
+tr:nth-child(odd){
+	background-color: #ffddb7;
+}
